@@ -171,7 +171,7 @@ def delete_review(request, id):
     return redirect('reviews')
 ```
 
-### Video Game API
+## Video Game API
 #### Api Used: https://api.rawg.io/api/games
 This code connects to the RAWG API, grabs first 20 games, and returns them in json format
 ```
@@ -226,8 +226,8 @@ def search_game_api(request):
         return render(request, 'DadSonGaming/Games/dsg_search_game.html', {'cant_find_game': cant_find_game })
 ```
 
-### Video Game News Webscraper
-#### Game News Site Used: https://nichegamer.com/news/
+## Video Game News Webscraper
+### Game News Site Used: https://nichegamer.com/news/
 
 ###  Web Scrapper Index Page
 Displays new stories with link to story
