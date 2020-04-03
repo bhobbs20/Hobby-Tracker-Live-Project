@@ -265,4 +265,23 @@ def game_scrapper(request):
     return render(request, 'DadSonGaming/Games/dsg_scrape_game.html', context)
 ```
 
+## Forms
+### Create Game Form
+
+```
+class GameForm(ModelForm):
+    class Meta:
+        model = Game  # Get the Game Model
+        fields = '__all__' # Get all fields from Game Model
+```
+
+### Create Review Form
+
+```
+class ReviewForm(ModelForm):
+    class Meta:
+        model = Review # Get the Review Model
+        fields = '__all__'  # Get all fields from Review Model
+```
+
  
