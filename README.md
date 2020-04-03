@@ -14,3 +14,7 @@ For the last two weeks, I have worked with a team of peers at the tech academy d
 ### Design Models
 This app had two models. A model for Reviews and a Model for games.
 
+``` # Home Page
+def home(request):
+    return render(request, 'DadSonGaming/dsg_home.html') # renders home page with no context
+```
