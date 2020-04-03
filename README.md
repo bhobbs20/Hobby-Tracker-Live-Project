@@ -284,4 +284,11 @@ class ReviewForm(ModelForm):
         fields = '__all__'  # Get all fields from Review Model
 ```
 
+## Other Skills Learned
+* Working with a group of developers to identify front and back end bugs to the improve usability of an application
+* Improving project flow by communicating about who needs to check out which files for their current story
+* Learning new efficiencies from other developers by observing their workflow and asking questions
+* Practice with team programming/pair programming when one developer runs into a bug they cannot solve
+
+
  
